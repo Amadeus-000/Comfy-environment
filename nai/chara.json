@@ -1,0 +1,82 @@
+{
+    "input": "beta (inazuma eleven), \n\n{{{disgust, looking down}}},\n1girl, standing, dynamic pose, dutch angle,\ncowboy shot, face focus,\n\n\n\n[[yd (orange maru),mobu,sugina miki,oshi no ko]],\n{{year 2024, year 2025}},, very aesthetic, masterpiece, no text",
+    "model": "nai-diffusion-4-5-full",
+    "action": "generate",
+    "parameters": {
+        "params_version": 3,
+        "width": 832,
+        "height": 1216,
+        "scale": 5,
+        "sampler": "k_euler_ancestral",
+        "steps": 25,
+        "n_samples": 1,
+        "ucPreset": 0,
+        "qualityToggle": true,
+        "autoSmea": false,
+        "dynamic_thresholding": false,
+        "controlnet_strength": 1,
+        "legacy": false,
+        "add_original_image": true,
+        "cfg_rescale": 0,
+        "noise_schedule": "karras",
+        "legacy_v3_extend": false,
+        "skip_cfg_above_sigma": null,
+        "use_coords": false,
+        "normalize_reference_strength_multiple": true,
+        "inpaintImg2ImgStrength": 0.8,
+        "v4_prompt": {
+            "caption": {
+                "base_caption": "beta (inazuma eleven), \n\n{{{disgust, looking down}}},\n1girl, standing, dynamic pose, dutch angle,\ncowboy shot, face focus,\n\n\n\n[[yd (orange maru),mobu,sugina miki,oshi no ko]],\n{{year 2024, year 2025}},, very aesthetic, masterpiece, no text",
+                "char_captions": [
+                    {
+                        "char_caption": "girl, \nbeta (inazuma eleven), \n{{{disgust, looking down}}},",
+                        "centers": [
+                            {
+                                "x": 0.5,
+                                "y": 0.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            "use_coords": false,
+            "use_order": true
+        },
+        "v4_negative_prompt": {
+            "caption": {
+                "base_caption": "nsfw, lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, negative space, blank page, bad anatomy, lowers, low quality, dark skin, bikini, low quality, worst quality, low quality, bad quality, bad anatomy, bad hands, bad feet, displeasing, unfinished, missing, artistic error, [abstract], lowres, jpeg artifacts, scan, chromatic aberration, signature, username, watermark, text, extra digits, fewer digits, @_@, chibi, censored, heart censor, bar censor, comic,\n",
+                "char_captions": [
+                    {
+                        "char_caption": "",
+                        "centers": [
+                            {
+                                "x": 0.5,
+                                "y": 0.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            "legacy_uc": false
+        },
+        "legacy_uc": false,
+        "seed": 640330450,
+        "characterPrompts": [
+            {
+                "prompt": "girl, \nbeta (inazuma eleven), \n{{{disgust, looking down}}},",
+                "uc": "",
+                "center": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "enabled": true
+            }
+        ],
+        "negative_prompt": "nsfw, lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, negative space, blank page, bad anatomy, lowers, low quality, dark skin, bikini, low quality, worst quality, low quality, bad quality, bad anatomy, bad hands, bad feet, displeasing, unfinished, missing, artistic error, [abstract], lowres, jpeg artifacts, scan, chromatic aberration, signature, username, watermark, text, extra digits, fewer digits, @_@, chibi, censored, heart censor, bar censor, comic,\n",
+        "deliberate_euler_ancestral_bug": false,
+        "prefer_brownian": true,
+        "stream": "msgpack"
+    },
+    "use_new_shared_trial": true,
+    "recaptcha_token": "0cAFcWeA6CA2Y2JAP6FjCyeRvm7YPUWJomCbj0NYSJfPSH4lMHEn2ZD_paQiKBi_OZz0gmmKF8IyVk8PsfHJJdmks2M4EmKJBFGtnafe6eYn7tEbF_xBx6sNgWnKNJ32H9XBIhIJPjQIfqRTT_kr-qOHFkP-lYGmDEg9ldyyp8CM4mBe1Nf7pM4cAbGbnZePfjO3w-y4uWLKsyW_ejenv-h1wVBL5xCDZ5xiReiMcX8xydnr88EKyTKe8LJVReRaWrdcf-oelcnUhNsWtJpfYr53kWnuguy-gcygSaWILAWUh_8uaY2Qg9MYIxUS3lce-pflOaAH2GhWAaggd_fjcJZieGhRgknmNaO-s_LkfnwkoL8-iE0H6IdNDF1E0p1UPGs88Z-0ggEGnsoxsZbk5u4o2EYinE7YjodrlQp7EaxhHsE8ifyEVPDzrZdQzegaURwKsGzj4NdotkMyigj3PvAMj-oUCcBSE_onoKQF2_szVQ-x6QE019DSmzz-Ig1O78lLkTsZA854BQf1PNwiYN_gUkRfe8kVobGFcHPGlfrWIBI5AFfOfWxRlbTtAthPgWOsFypEmDCvEOgUd1Dfy0jnwl4Lib6LiDLtyK7i3Qzgi37rtODV8ptZ6e2IirEqpLefxgTf59iyPri6PdFGMI9_IzHwPrkHjLidw-BQHCmidHIoh8PA-fwWRj2lGXirvK53nmnuIp0VsRRV8MrUtZk4JDn5KaiaD59reyAPQsKQaxvhi82u8hUX7w6juNzhCW3VvS4H8s911vfYFqwbllmtslasL9NLB4zGQlCN_kXYFqWazpWcOR-Fq-k5g79SX_e-LuNAtbGh5Z_QwTS9b9ZE_cEzbNAuHq6amcYymbHO9ZZsqx2uuGYIWc7RfvKfqUkaig79pPlGkqBnau-IqWeQtElQ88cJedYZvDhUvx31rfxMUdkFtJMQUudQlxZgQNZEOnDCfpSxEQ8_CAP6iNBDxqakNg-X_FBYCmO7ca44wj7Ut8mamjTiBgx0l4wcP43eiMIJhHqYYIX9w7qRnJ-b_cBq_E-DuaruNhya0IPtLQMQhzlJps93GDmWxgz7LmG5FGA7XnS9dNjhQO9Qo1cTuFatsD6MFotozwAJAN5OpAkhjgIWcp_eAmCbn_9k2POIkrWQFnUQ7rYxP8js_EtZqIrYY6KKIFcwNwj_0YF9Tk66zxKhRTqXjWEb7FCbRAVHSBneBXhPzC_1g28AbIzbgpfm3PhEtHc2fKZg-SX0zRO2Kkp6WmBkQ3-lzULJM3jl0WEGx3GMT9f_Vy6dEqVNfeVAU8RXH8Y11Zh2I6t8qQdTZbfk9Cr8bMiht10Y9M_U2AQcwx-q-r1VkT2HlF3IIdq8Yn13QiM5TsCK9ccw-PKXThcOv44CL9N-67dDgLkuivZ8mvmDkVEWUDc-A9DhZEw4ao86hDQBvuOEJRVEFx7G5LGy4rJlIXXglwaACbdbc5JE6sNrgwR2MlrMBShp5Jz5uBD5DTg983TwiifXgbMn_lmwR6hyXRT06XutfkOOTBos-CANakLXdV0HhlRso4-Gblx88h2rqnjaHK8Kb_gYDPCsJw7zDKqVxWDUWrLg1Pxqa2NgAst4mBjH78zbnVdWOFTPDygwtboc93LmF59Phi8spjSvpTZpfB3U_FjqiZlnvg_k0BMBsgdbpH_gl2UgoYG8MQ9iCorT9-WWuSo4Os2TUfzv_QTuaWkpgGedHb5poukvKpWNGXMmczuimcnoN02WEUd60PA-VFwSfcNJdDdAM7SrSdAeAub4ozRrKJeVFk1sIEV9Rgk-XJ5zHGloZSdYMl5O9xy068SYM2o40OWtuAZDXsddD8JMz8hwQQOk-arnTvukeWYleeJrlbytvbFBVDpcIKOYZRx3vjja9aKf_PWZn0jaw0GB_zdoaOm2h04g6b444HhptP1QexLPzoneXrmfLmH37z3OVhu7PIBd1OObr0H-Wt__KxAkhAruzqgQBE3qu_M8v5raoZKK3VnkRDNkX5Pi_1L7hES5EkvP2ByxmKP_vRw1S1N1xqeOUhFbqmzIM8a304FtSKSOXA00MnygQVx3DV0R8om7P0-zSP-FKcZtQIuttenjNRYI8mPA3u"
+}
