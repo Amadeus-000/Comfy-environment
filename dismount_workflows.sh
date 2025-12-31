@@ -1,2 +1,2 @@
 #!/bin/bash
-rm ComfyUI/user/default/workflows/myworkflows
+rm ComfyUI/user/default/workflows/myworkflows/myworkflows
