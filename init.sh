@@ -3,3 +3,4 @@
 source ./sh/environment/install.sh
 bash ./sh/environment/mount.sh
 bash ./sh/environment/launch.sh
+cp ./config.ini ./ComfyUI/custom_nodes/ComfyUI-Manager/config.ini
