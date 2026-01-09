@@ -10,6 +10,11 @@ watch -n 1 nvidia-smi
 なぜかこのライブラリが入らない
 `pip install sageattention`
 
+- ComfyUI_essentials
+- ComfyUI-WanVideoWrapper
+はComfyUI-Managerで入れるとエラーが出るから、手動で入れ直す。
+
+
 ## GoogleDriveのマウントパス
 ### Wan22
 `/vastai/workflow_assets/wan22/models` to `/workspace/models`
