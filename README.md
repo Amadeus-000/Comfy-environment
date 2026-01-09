@@ -8,4 +8,6 @@ watch -n 1 nvidia-smi
 
 ## GoogleDriveのマウントパス
 ### Wan22
-`/Vastai/workflow_assets/wan22/models` to `/workspace/models`
+`/vastai/workflow_assets/wan22/models` to `/workspace/models`
+### EaysWan22
+`/vastai/workflow_assets/easy_wan22/models` to `/workspace/models`
