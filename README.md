@@ -6,6 +6,10 @@
 watch -n 1 nvidia-smi
 ```
 
+### EasyWan22
+なぜかこのライブラリが入らない
+`pip install sageattention`
+
 ## GoogleDriveのマウントパス
 ### Wan22
 `/vastai/workflow_assets/wan22/models` to `/workspace/models`
