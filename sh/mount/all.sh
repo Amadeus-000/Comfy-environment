@@ -1,4 +1,4 @@
 #!/bin/bash
 
-bash "$(dirname "$0")/models.sh"
-bash "$(dirname "$0")/workflows.sh"
+bash ./sh/mount/models.sh
+bash ./sh/mount/workflows.sh
