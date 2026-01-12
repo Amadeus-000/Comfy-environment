@@ -17,10 +17,12 @@ pip install -r requirements.txt
 ```
 
 ## GoogleDriveのマウントパス
-### Wan22
+- Wan22
 `/vastai/workflow_assets/wan22/models` to `/workspace/models`
-### EaysWan22
+- EaysWan22
 `/vastai/workflow_assets/easy_wan22/models` to `/workspace/models`
+- qwen_multiangle
+`/vastai/workflow_assets/qwen_multiangle/models` to `/workspace/models`
 
 
 ## EasyWan22
