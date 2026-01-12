@@ -2,9 +2,10 @@
 
 ## コマンド集
 ### VRAM使用量、GPU利用率の監視
-```bash
-watch -n 1 nvidia-smi
-```
+`watch -n 1 nvidia-smi`
+
+### comfy-cliでcustom_nodeを入れる
+`comfy node install <NODE_NAME>`
 
 ### EasyWan22
 なぜかこのライブラリが入らない
