@@ -1,5 +1,6 @@
 #!/bin/bash
 # arg $1: python version (e.g., 3.10.6)
+# arg $2: mount,lanuch option
 
 source ./sh/environment/conda.sh $1
 source ./sh/environment/install.sh
@@ -16,3 +17,9 @@ elif [ "$2" == "ml" ]; then
    bash ./sh/mount/all.sh
    bash ./sh/environment/launch.sh
 fi
+
+if [ "$3" == "easywan22" ]; then
+   # WIP
+   comfy node install 
+   pip install sageattention
+   comfy launch -- --normalvram
