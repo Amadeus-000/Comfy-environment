@@ -64,6 +64,7 @@ pip install -r requirements.txt
   - PINNED MEMORY は、ページアウトされず高速に CPU-GPU 間でやり取りできるメモリ領域です。
   - 標準では、Windows は最大メインメモリの 45%、他のプラットフォームでは 95% を PINNED MEMORY に使用します。
 - このオプションを指定すると、ComfyUI の処理速度は低下しますが、システム全体の安定性が向上する場合があります（特に Windows 以外のプラットフォームで他のアプリケーションが同時に動作している場合）。
+<!-- https://qiita.com/asfdrwe/items/2cd39b203bc1af05fed6 より引用 -->
 
 ## EasyWan22
 なぜかこのライブラリが入らない
