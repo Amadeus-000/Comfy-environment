@@ -73,3 +73,16 @@ pip install -r requirements.txt
 - ComfyUI_essentials
 - ComfyUI-WanVideoWrapper
 はComfyUI-Managerで入れるとエラーが出るから、手動で入れ直す。
+
+dependency custom_nodes
+- comfyui-impact-pack
+- comfyui-custom-scripts
+- rgthree-comfy
+- comfyui-kjnodes
+- comfyui-florence2
+- comfyui-videohelpersuite
+- comfyui_custom_nodes_alekpet
+- comfyui-frame-interpolation
+- comfyui-mxtoolkit
+- comfyui-unload-model
+- loop-image
