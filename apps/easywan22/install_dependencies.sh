@@ -13,7 +13,7 @@ echo "==================================="
 custom_nodes=(
     "comfyui-impact-pack"
     "comfyui-custom-scripts"
-    "rgthree-comfy"
+    "rgthree-comfy" # version = "1.0.2509092031"
     "comfyui-kjnodes"
     "comfyui-florence2"
     "comfyui-videohelpersuite"
@@ -21,7 +21,9 @@ custom_nodes=(
     "comfyui-frame-interpolation"
     "comfyui-mxtoolkit"
     "comfyui-unload-model"
-    "loop-image"
+    "loop-image",
+    "comfyui_essentials", # version = "1.1.0"
+    "ComfyUI-WanVideoWrapper" # version = "1.3.4"
 )
 
 # Install each custom node
