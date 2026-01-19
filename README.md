@@ -23,6 +23,9 @@ pip install -r requirements.txt
 `/vastai/workflow_assets/easy_wan22/models` to `/workspace/models`
 - qwen_multiangle
 `/vastai/workflow_assets/qwen_multiangle/models` to `/workspace/models`
+- LTX
+`/vastai/workflow_assets/ltx/models` to `/workspace/models`
+
 
 ## Comfy起動オプション
 `comfy launch -- --option`
@@ -86,3 +89,7 @@ dependency custom_nodes
 - comfyui-mxtoolkit
 - comfyui-unload-model
 - loop-image
+
+## Ltx
+なぜかこのライブラリが入らない
+`pip install sageattention`
