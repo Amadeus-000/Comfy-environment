@@ -2,8 +2,11 @@
 # arg $1: python version (e.g., 3.10.6)
 # arg $2: mount,lanuch option
 
-
-source ./sh/environment/conda.sh $1
+if [ "$1" == "--" ]; then
+   echo "Using default python version"
+else
+   source ./sh/environment/conda.sh $1
+fi
 source ./sh/environment/install.sh
 cp ./config.ini ./ComfyUI/custom_nodes/ComfyUI-Manager/config.ini
 
