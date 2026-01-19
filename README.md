@@ -93,3 +93,5 @@ dependency custom_nodes
 ## Ltx
 なぜかこのライブラリが入らない
 `pip install sageattention`
+でかい蒸留モデルを使う
+https://www.reddit.com/r/comfyui/comments/1q7vs3z/help_ltx2_distilled_model_is_giving_me_quick/?tl=ja
