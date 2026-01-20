@@ -95,3 +95,7 @@ dependency custom_nodes
 `pip install sageattention`
 でかい蒸留モデルを使う
 https://www.reddit.com/r/comfyui/comments/1q7vs3z/help_ltx2_distilled_model_is_giving_me_quick/?tl=ja
+
+curl -L -o ltx-2-19b-distilled-lora-384.safetensors https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors
+
+curl -L -o ltx-2-spatial-upscaler-x2-1.0.safetensors https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors
